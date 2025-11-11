@@ -1,4 +1,3 @@
-// --- PROSEDUR OUTPUT DENGAN CONCATENATION ---
 function displayReport(data) {
     
     console.log("==================================================");
@@ -7,7 +6,6 @@ function displayReport(data) {
     console.log("Nama Siswa   | H | I | S | A | Total");
     console.log("-----------------------------------");
     
-    // Perulangan untuk setiap siswa
     for (const studentName in data) {
         if (data.hasOwnProperty(studentName)) {
             const attendanceList = data[studentName];
@@ -15,8 +13,6 @@ function displayReport(data) {
             
             const totalAttendance = attendanceList.length;
             
-            // Output menggunakan CONCATENATION (+)
-            // padEnd(12) digunakan untuk menjaga format kolom.
             const outputLine = 
                 studentName.padEnd(12) + " | " + 
                 summary.Hadir + " | " + 
@@ -33,7 +29,6 @@ function displayReport(data) {
     console.log("Keterangan: H=Hadir, I=Izin, S=Sakit, A=Alpha");
 }
 
-// --- FUNGSI UTAMA (Tidak Berubah) ---
 function calculateSummary(attendanceList) {
     let summary = { Hadir: 0, Izin: 0, Sakit: 0, Alpha: 0 };
     for (const status of attendanceList) {
@@ -50,7 +45,7 @@ function calculateSummary(attendanceList) {
     return summary;
 }
 
-// --- Contoh Data (Tidak Berubah) ---
+
 const attendanceData = {
     "Budi Santoso": ["H", "H", "I", "S", "H", "A"],
     "Siti Rahayu": ["H", "H", "H", "H", "H", "H"],
@@ -58,5 +53,9 @@ const attendanceData = {
     "Ayu Lestari": ["H", "A", "H", "S", "A", "H"]
 };
 
-// --- Eksekusi ---
+
 displayReport(attendanceData);
+
+// By Muh. Naufal Febriansyah
+// Student ID: 544251173
+// Class: RPL X-4
