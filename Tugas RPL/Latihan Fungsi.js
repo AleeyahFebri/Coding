@@ -59,3 +59,21 @@ displayReport(attendanceData);
 // By Muh. Naufal Febriansyah
 // Student ID: 544251173
 // Class: RPL X-4
+
+// kelas = 85
+
+// if (kelas == 'X RPL 2') {
+//     console.log("Selamat datang di X RPL 2 !");
+// } else {
+//     console.log("kamu salah kelas");
+// }
+
+nilai = 85
+
+if (nilai >= 90) {
+    console.log("Kamu dapat A");
+} else if (nilai >= 80) {
+    console.log("Kamu dapat B");
+} else if (nilai >= 70) {
+    console.log("Kamu dapat C");
+}

@@ -2,15 +2,15 @@
 // INPUT BARANG
 // =======================
 
-let nama1 = "Pensil Case";
-let harga1 = 24000;
+let nama1 = "ayam geprek";
+let harga1 = 10000;
 let qty1 = 5;
 
-let nama2 = "Buku";
+let nama2 = "Nasi Goreng XXL";
 let harga2 = 25000;
 let qty2 = 3;
 
-let nama3 = "Spidol";
+let nama3 = "ikan bakar";
 let harga3 = 15000;
 let qty3 = 4;
 
@@ -22,7 +22,6 @@ let qty3 = 4;
 let total1 = harga1 * qty1;
 let total2 = harga2 * qty2;
 let total3 = harga3 * qty3;
-
 
 // =======================
 // TOTAL BELANJA
@@ -64,3 +63,8 @@ console.log("Total Belanja     :", totalBelanja);
 console.log("Diskon            :", diskon * 100 + "%");
 console.log("Potongan          :", potongan);
 console.log("Total Bayar       :", totalBayar);
+console.log("toko asyraf murah meriah");
+
+// By Muh. Naufal Febriansyah
+// Student ID: 544251173
+// Class: RPL X-4
